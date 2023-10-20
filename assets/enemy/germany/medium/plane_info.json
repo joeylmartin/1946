@@ -1,0 +1,41 @@
+{
+	"health": 24,
+	"speed": 6,
+	"bullet_image": "assets/enemy/bullet/smallbullet.png",
+	"bullet_scale_factor" : 4,
+	"bullet_damage": 5,
+	"bullet_speed": 7,
+	"firing_position": [0],
+	"images": [ "planeforward.png", "planeforward2.png" ],
+	"scale_factor": 4,
+	"frame_delay": 4,
+	"point_count": 2000,
+	"formation_groups": [
+		{ "spawn_area": {"left": 0, "top": 0, "width": 0.1, "height": 0.1}, 
+			"offsets": [ 
+				{"x": 0, "y": 0, "t": 0}
+			]
+		}
+	],
+	"paths": [
+		[
+			[100, 1200],
+			[100, 720, 70],
+			[100, 720, 85],
+			[100, 720, 100],
+			[100, 360, 130],
+			[100, 360, 145],
+			[100, 360, 160],
+			[100, -100],
+			[100, 360, 160],
+			[100, 360, 145],
+			[100, 360, 130],
+			[100, 720, 100],
+			[100, 720, 85],
+			[100, 720, 70],
+			[100, 720],
+			[100, 1200]
+		]
+	]
+	
+}
